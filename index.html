@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <title>Bootstrap 实例 - 堆叠的进度条</title>
+   <link href="bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet">
+   <link rel="stylesheet" type="text/css" href="public/style.css">
+   <script src="bootstrap-3.3.5/js/jquery.min.js"></script>
+   <script src="bootstrap-3.3.5/js/bootstrap.min.js"></script>
+   <script type="text/javascript" src="public/common.js"></script>
+</head>
+<body>
+
+<div id="bar" class="progress">
+   <div id="barId" class="progress-bar progress-bar-success" role="progressbar" 
+      style="width: 40%;">
+      <span id="info" >40% 完成</span>
+   </div>   
+</div>
+ <label id="sizeLab">总容量：</label><label id="maxSize">50GB</label>
+<input id="barInput" type="text" placeholder="The num 0 to 100"></input>
+<button onclick="changeBarVal()" >Click Me</button>
+</body>
+</html>
