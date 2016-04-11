@@ -1,0 +1,17 @@
+ body{
+      margin: 88px 88px;
+   }
+   #bar{
+      border:1px solid;
+      width: 300px;
+      float: left;
+   }
+   #sizeLab, #maxSize{
+      display: block;
+      height: 20px;
+      line-height: 20px;
+   }
+   #sizeLab{
+      float: left;
+      margin-left: 10px;
+   }
